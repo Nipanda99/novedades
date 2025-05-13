@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                    // Soporte moderno de async/await
+    "module": "commonjs",                  // Necesario para Node.js
+    "outDir": "./dist",                    // Carpeta de salida si compilas
+    "rootDir": "./src",                    // Carpeta donde están tus .ts
+    "strict": true,                        // Activa chequeo estricto (buena práctica)
+    "esModuleInterop": true,               // Permite importar paquetes comunes de npm
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,                  // Evita errores molestos en libs de terceros
+    "resolveJsonModule": true              // Permite importar archivos .json
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
